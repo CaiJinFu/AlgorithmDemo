@@ -95,12 +95,12 @@ public class CharuPaixu {
     int cur;
     for (int i = 0; i < arrays.length - 1; i++) {
       cur = arrays[i + 1];
-      int pre = i;
-      while (pre >= 0 && cur < arrays[pre]) {
-        arrays[pre + 1] = arrays[pre];
-        pre--;
+      int preIndex = i;
+      while (preIndex >= 0 && cur < arrays[preIndex]) {
+        arrays[preIndex + 1] = arrays[preIndex];
+        preIndex--;
       }
-      arrays[pre + 1] = cur;
+      arrays[preIndex + 1] = cur;
     }
     Log.i("TAG", "插入: " + Arrays.toString(arrays));
   }
