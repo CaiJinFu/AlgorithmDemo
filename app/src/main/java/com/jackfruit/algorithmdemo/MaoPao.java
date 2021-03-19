@@ -66,7 +66,7 @@ public class MaoPao {
           int temp = arrays[j];
           arrays[j] = arrays[j + 1];
           arrays[j + 1] = temp;
-
+          changeIndex = j + 1;
         }
       }
       i = changeIndex;
