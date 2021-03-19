@@ -1,8 +1,8 @@
 package com.jackfruit.algorithmdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
     // maoPao.maoPao3();
     // SelectionOrder selectionOrder = new SelectionOrder();
     // selectionOrder.selection();
-    CharuPaixu charuPaixu = new CharuPaixu();
-    charuPaixu.insertSort();
+    // CharuPaixu charuPaixu = new CharuPaixu();
+    // charuPaixu.insertSort();
+    ShellSort shellSort = new ShellSort();
+    shellSort.paixu();
   }
 }
