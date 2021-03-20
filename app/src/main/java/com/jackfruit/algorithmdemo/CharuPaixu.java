@@ -92,6 +92,7 @@ public class CharuPaixu {
   }
 
   public void paixu() {
+    //int[] arrays = {11, 3, 1, 2, 6, 9, 33, 22, 55, 66};
     int cur;
     for (int i = 0; i < arrays.length - 1; i++) {
       cur = arrays[i + 1];
